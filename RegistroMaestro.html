@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario maestro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Css/login.css">
+</head>
+
+
+<body>
+	<form action="Php/MainUser.php" method="post">
+		<img src="img/LogoUPAM.jpg">
+		<h2> Registro del maestro</h2>
+	
+        <input class="inp" type="text" name="Nombre" value="" placeholder=" Name " ><br>
+        <input class="inp" type="text" name="Matricula" value="" placeholder=" Scholar ID "><br>
+        <input class="inp" type="Password" name="Pass" value="" placeholder=" Password " ><br>
+        <input class="inp" type="text" name="ApellidoP" value="" placeholder=" First LastName  "><br>
+        <input class="inp" type="text" name="ApellidoM" value="" placeholder=" Second LastName" ><br>
+        <input class="inp" type="email" name="Correo" value="" placeholder=" Email  "><br>
+        <input type="hidden" name="opc" value="registroM">
+
+
+		<input type="submit" value="ENVIAR" id="boton">
+		
+	</form>
+
+</body>
+
+
+
+</html>
